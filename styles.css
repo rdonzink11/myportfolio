@@ -7,7 +7,7 @@
 body {
     font: 15px/1.5 Ariel,helvetica,san-serif;
     background-color: rgba(0, 9, 17, 0.438);
-    background: url(//image1.jpg);
+    background: url(/image1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -129,6 +129,7 @@ li, a {
     border-radius: 30px;
     box-shadow: 0 0 20px rgb(175, 193, 211);
     width: 80vh;
+    height: 65vh;
     align-items: center;
     text-align: center;
     margin: auto;
