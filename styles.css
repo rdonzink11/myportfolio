@@ -6,8 +6,7 @@
 
 body {
     font: 15px/1.5 Ariel,helvetica,san-serif;
-    background-color: rgba(0, 9, 17, 0.438);
-    background: #212124;
+    background-color: #212124;
     background-size: cover;
     background-position: center;
     height: 100vh;
