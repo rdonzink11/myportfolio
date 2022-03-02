@@ -6,7 +6,8 @@
 
 body {
     font: 15px/1.5 Ariel,helvetica,san-serif;
-    background: url(/myportfolio/image1.jpg);
+    background-color: rgba(0, 9, 17, 0.438);
+    background: url(/image1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -261,7 +262,7 @@ button:hover{
 .main__contacts:hover{
     color: rgb(136, 86, 50);
     box-shadow: inset 500px 0 100px 500px #cbd5d8;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -269,7 +270,7 @@ button:hover{
 @media only screen 
 and (min-width: 414px)
 and (max-width: 736px)
-and (-webkit-min-device-pixel-ratio:3){
+and (-webkit-min-device-pixel-ratio:2){
 
 html, body{
     background: cover;
@@ -404,10 +405,14 @@ button{
 }
 
 .main__contacts{
+    display: flex;
     margin: 20px auto;
-    width: 300px;
+    width: 350px;
     height: 100px;
-    padding: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 section{
