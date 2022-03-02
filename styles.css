@@ -262,7 +262,7 @@ button:hover{
 .main__contacts:hover{
     color: rgb(136, 86, 50);
     box-shadow: inset 500px 0 100px 500px #cbd5d8;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
 }
 
