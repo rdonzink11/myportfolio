@@ -267,6 +267,18 @@ button:hover{
 }
 
 
+.project1 {
+    margin-top: 20px;
+    z-index: 999;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(105, 150, 194);
+    cursor: pointer;
+
+}
+
 @media only screen 
 and (min-width: 414px)
 and (max-width: 736px)
