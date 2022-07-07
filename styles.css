@@ -268,15 +268,16 @@ button:hover{
 
 
 .project1 {
-    margin-top: 20px;
+    margin: 20px 10px;
     z-index: 999;
-    display: flex;
-    width: 400px;
-    height: 250px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 250px; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(105, 150, 194);
     cursor: pointer;
-
 }
 
 @media only screen 
