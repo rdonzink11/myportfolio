@@ -29,13 +29,26 @@
         </div>
     </header>
 
-    <Section class="container">
+    <Section class="container main__gallery">
             <h3 class="h3__main">My Gallery</h3>
+          
+            <div class="full-img" id="fullImgBox">
+            <img src="./mockup.png" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+          </div>
+          
             <div class="main__project">
-                <img class="project1" src="./Mockup.png" alt="">
-                <img class="project1" src="./Image1.svg" alt="">
-                <img class="project1" src="./Image2.svg" alt="">
+                <img class="project0" src="./mockup.png" onclick="openFullImg(this.src)">
+                <img class="project1" src="./Image1.svg" onclick="openFullImg(this.src)">
+                <img class="project1" src="./Image2.svg" onclick="openFullImg(this.src)">
+                <video controls="controls" width="350px" height="300px" name="nexturn">
+                    <source src="./NexturnVid.mov" type="video">
+                </video>
+                
             </div>  
+
+           
+            
 
     </Section>
     <script src="script.js"></script>
