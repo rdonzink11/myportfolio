@@ -7,7 +7,7 @@
 body {
     font: 15px/1.5 Ariel,helvetica,san-serif;
     background-color: rgba(0, 9, 17, 0.438);
-    background: url(/myportfolio/black1.jpeg);
+    background: url(/black1.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -97,7 +97,7 @@ header{
 }
 
 
-li, a {
+.navbar li, a {
     text-decoration: none;
     list-style: none;
     color: #ffffff;
@@ -162,12 +162,25 @@ section p {
 }
 
 img{    
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    border-radius: 10%;
+    margin-bottom:20px;
     overflow: hidden;
     max-width: 50%;
     max-height: 50%;
+}
+
+.profilePic{
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+}
+
+.profilePic:hover {
+    transform: scale(1.1) rotate(-30deg);
+
 }
 
 button {
@@ -181,28 +194,6 @@ button {
     box-shadow: inset 0 0 0 0 #9c9797;
     transition: ease 0.3s ;
 }
-
-.btn__signup {
-    width: 100px;
-    height: 40px;
-    background-color: rgb(65, 170, 173);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #9c9797;
-    transition: ease 0.3s ;
- }
- 
- .btn__signup a {
-     border: none;
-     text-decoration: none;
-
- }
-
-.btn__signup:hover{
-     transform: scale(1);
- }
- 
 
 button a{
     margin:  0;
@@ -266,19 +257,79 @@ button:hover{
     font-weight: bold;
 }
 
-
-.project1 {
-    margin: 20px 10px;
-    z-index: 999;
-    display: inline-block;
+.full-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+    position: fixed;
+    background: rgba(0,0,0,0.9);
+    top: 0;
+    left:0;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 250px; 
+    display: none;
+    z-index: 100;
+
+    }
+
+.full-img img{
+    width: 80%;
+    height: 80%;
+    max-width: 800px;
+    max-height: 800px;
+    border-radius: 10px;
+}
+
+.full-img span{
+    position: absolute;
+    top:10px;
+    right:300px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.project0{
+    margin: 50px 10px 10px 10px;
+    z-index: 999;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 230px; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(105, 150, 194);
     cursor: pointer;
+    transition: 0.5s;
+    filter: grayscale(100%);
 }
+
+.project1{
+    margin: 50px 10px 10px 10px;
+    z-index: 999;
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 330px;
+    height: 230px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(105, 150, 194);
+    cursor: pointer;
+    transition: 0.5s;
+    filter: grayscale(100%);
+}
+
+.project0:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+
+.project1:hover{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
 
 @media only screen 
 and (min-width: 414px)
