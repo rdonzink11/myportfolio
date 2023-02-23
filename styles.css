@@ -7,7 +7,7 @@
 body {
     font: 15px/1.5 Ariel,helvetica,san-serif;
     background-color: rgba(0, 9, 17, 0.438);
-    background: url(/black1.jpeg);
+    background: linear-gradient(to top, #4b769e 40%, #154c70 60%);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -71,7 +71,7 @@ header{
 
 }
 .logo{
-    background-image: linear-gradient(to top, #397699 0%, #154c70 70%);
+    background-image: linear-gradient(to top, #1b282e 40%, #90ccf4 60%);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip:text;
