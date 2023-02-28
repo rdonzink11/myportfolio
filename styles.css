@@ -307,7 +307,7 @@ button:hover{
     box-shadow: 0 0 10px rgb(105, 150, 194);
     cursor: pointer;
     transition: 0.5s;
-    filter: grayscale(100%);
+    opacity: 0.6;
 }
 
 .project1{
@@ -322,18 +322,18 @@ button:hover{
     box-shadow: 0 0 10px rgb(105, 150, 194);
     cursor: pointer;
     transition: 0.5s;
-    filter: grayscale(100%);
+    opacity: 0.6;
 }
 
 .project0:hover{
     transform: scale(1.1);
-    filter: grayscale(0%);
+    opacity: 1;
 }
 
 
 .project1:hover{
     transform: scale(1.1);
-    filter: grayscale(0%);
+    opacity: 1;
 }
 
 #imgText{
