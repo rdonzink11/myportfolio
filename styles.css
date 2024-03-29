@@ -6,8 +6,8 @@
 
 body {
     font: 15px/1.5 Ariel,helvetica,san-serif;
-    background-color: rgba(0, 9, 17, 0.438);
-    background: linear-gradient(to top, #192735 30%, #417599 80%);
+    background-color: rgba(31, 69, 103, 0.438);
+    background: linear-gradient(to top, #e2e3e4 30%, #9bacb8 80%);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -164,7 +164,7 @@ section p {
 
 img{    
     width: 170px;
-    height: 170px;
+    height: 230 px;
     border-radius: 10%;
     margin-bottom:20px;
     overflow: hidden;
@@ -173,14 +173,14 @@ img{
 }
 
 .profilePic{
-    transition: 0.5s;
     cursor: pointer;
     border: none;
     box-shadow: none;
 }
 
 .profilePic:hover {
-    transform: scale(1.1) rotate(-30deg);
+    transform: rotatey(360deg);
+    transition: 0.5s ease-in;
 
 }
 
